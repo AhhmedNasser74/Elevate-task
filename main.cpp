@@ -8,7 +8,7 @@ void printPrimenumber(int n, int m)
         swap(n,m);
     }
 
-    for(int i=n+1; i<=m; i++)
+    for(int i=n+1; i<=m-1; i++)
     {
         int count=0;
         for(int j=1; j<=i; j++)
